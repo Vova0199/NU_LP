@@ -1,0 +1,155 @@
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(30%); /* make all photos black and white */
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    z-index: -100;
+}
+
+.container {
+    padding: 30px 120px;
+}
+
+
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* Remove border and add padding to thumbnails */
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
+
+/* Black buttons with extra padding and without rounded borders */
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+
+.bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+}
+.bg-1 h3 {color: #fff;}
+.bg-1 p {font-style: italic;}
+
+.nav-tabs li a {
+    color: #777;
+}
+.carousel1{
+    position: absolute;
+    right: 15%;
+    bottom: 50%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
+@media screen and (max-width: 768px) {
+  .carousel1 h1{
+font-size: 16px;
+  }
+  .carousel1 h4{
+font-size: 12px;
+  }
+  .carousel1{
+      position: absolute;
+      right: 15%;
+      left: 15%;
+      z-index: 10;
+      color: #fff;
+      text-align: center;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  }
+}
+
+.tab-pane p {
+  padding: 10px;
+  text-align: left;
+}
+
+.thumbnail .news{
+  margin: 10px;
+  text-align: left;
+}
+
+footer {
+    background-color: #28282a !important;
+    color: #f5f5f5;
+    height: 100px;
+    padding-top: 10px;
+}
+
+footer a {
+    color: #f5f5f5;
+}
+
+.container p.text-center{
+  padding-bottom: 20px;
+}
+
+.carousel1 h1.slideDown{
+  animation-duration: 2.5s;
+}
+.carousel1 h4.slideDown{
+  animation-duration: 2.7s;
+}
+
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px) scale(2.1);
+}
+
+.info{
+  background-color: #fbfbfb;
+  border-radius: 10px 10px 0 0;
+}
+
+body{
+  background-color: rgb(230, 230, 230);
+}
