@@ -1,19 +1,24 @@
 function add() {
   var name, position, resp, res;
+
+
+  var visible = true;
   var div = document.createElement("div");
-  //div.id = "addresp";
-  //div.className = "row";
+  div.id = "addresp";
+  div.className = "row";
 
   name = document.getElementById('name').value;
   position = document.getElementById('position').value;
   resp = document.getElementById('comment').value;
 
-  if (($('#longdescription').val() === "") || ($('#name').val() === "")) {
+  document.getElementById('btn').onclick = function() {
+    document.getElementById('addresp').style.display = 'block';
+  }
+
+  if (($('#position').val() === "") || ($('#name').val() === "") || ($('#comment').val() === "")) {
     alert('Заповніть всі поля');
     return false;
   } else {
-
-
     document.getElementById('addresp').innerHTML = '<div class="col-sm-3">' +
       '<img src="img/bg.png" class="img-circle" alt="Cinque Terre" width="150" height="150">' +
       '</div>' +

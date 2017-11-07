@@ -64,7 +64,18 @@ input{
   margin: 0;
   padding: 0;
 }
+#addresp{
+  display: none;
+}
+li #list{
+  min-height: 150px;
 
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: #e2e2e2;
+
+    box-shadow: 0 5px 7px rgba(0,0,0,0.2);
+}
 .parallax {
   perspective: 1px;
   height: 100vh;
