@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="response.css">
 
+
 </head>
 
 <body>
@@ -55,17 +56,24 @@
       <div class="parallax__layer parallax__layer--base">
         <div class="respons">
           <div class="container bg-grey">
-
             <div class="row">
-              <form>
-                <input class="form-control" id="name" name="name" placeholder="Ваш нік" required>
-                <input class="form-control" id="position" name="position" placeholder="Посада" required>
-                <textarea class="form-control" id="comments" placeholder="Ваш коментар" rows="3" required></textarea>
-
-                <button class="btn pull" type="submit">Надіслати</button>
+              <form id="resp">
+                <input id="name" class="form-control" name="name" placeholder="Ваш нік" required minlength="5" maxlength="10">
+                <input id="position" class="form-control" name="position" placeholder="Посада" required>
+                <textarea id="comment" class="form-control" placeholder="Ваш коментар" rows="3" required></textarea>
+                  <button class="btn">Надіслати</button>
+                <input class="btn pull" type="button" value="Надіслати" onclick="add()">
 
               </form>
             </div>
+
+
+
+
+            <div class="row" id="addresp">
+            </div>
+
+
             <div class="row">
               <div class="col-sm-3">
                 <img src="img/bg.png" class="img-circle" alt="Cinque Terre" width="150" height="150">
@@ -75,6 +83,10 @@
                 <p><strong>Teacher<br></strong> Чоткий тіп робив цей сайт, я б поставив 5</p>
               </div>
             </div>
+
+
+
+
             <div class="row">
               <div class="col-sm-3">
                 <img src="img/foto.jpg" class="img-circle" alt="Cinque Terre" width="150" height="150">
@@ -123,7 +135,6 @@
                 </p>
               </div>
             </div>
-
           </div>
         </div>
 
@@ -134,17 +145,13 @@
           </p>
         </footer>
       </div>
-
     </div>
   </div>
 
 
-
-
-
+  <script src="js/response.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script type="js/my.js"></script>
 
   </script>
 </body>

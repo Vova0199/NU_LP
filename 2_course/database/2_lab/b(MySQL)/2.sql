@@ -1,0 +1,1 @@
+select * from outcome_o where Day(date) = 14;
