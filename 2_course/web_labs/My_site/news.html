@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html manifest="manifest.cache">
+<html>
 
 <head>
   <meta charset="utf-8">
@@ -29,11 +29,11 @@
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Студентам
             <span class="caret"></span>
           </a>
-          <ul class="dropdown-menu">
-            <li><a href="plan.html">Програма</a></li>
-            <li><a href="#">Лабораторні</a></li>
-            <li><a href="#">Література</a></li>
-          </ul>
+            <ul class="dropdown-menu">
+              <li><a href="plan.html">Програма</a></li>
+              <li><a href="#">Лабораторні</a></li>
+              <li><a href="#">Література</a></li>
+            </ul>
           </li>
           <li><a href="response.html">Відгуки</a></li>
           <li><a href="#contact">Контакти</a></li>
@@ -98,88 +98,106 @@
       <div class="parallax__layer parallax__layer--base">
         <div class="bg-1">
           <div class="container">
-            <h3 class="text-center">Останні новини</h3>
-            <p class="text-center">Найсвіжіше тільки для вас</p>
+
+
+
+
             <div class="row text-center" id="newslist">
-              <div class="col-sm-4">
-                <div class="thumbnail">
-                  <img src="img/bg.png" alt="Paris">
-                  <p><strong>Останні новини</strong></p>
-                  <p class="news">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
+              <div class="wrapper row col-ms-12">
+                <section class="hoc container clear">
+                  <div class="center btmspace-50">
+                    <h3 class="text-center">Останні новини</h3>
+                    <p class="text-center">Найсвіжіше тільки для вас</p>
+                  </div>
+                  <ul class="nospace group" id="news_list">
 
-                  <p>11 Жовтня 2017</p>
-                  <button class="btn">Дізнатись більше</button>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="thumbnail">
-                  <img src="img/bg.png" alt="New York">
-                  <p><strong>New York</strong></p>
-                  <p class="news">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
-                  <p>Sat. 28 November 2015</p>
-                  <button class="btn">Дізнатись більше</button>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="thumbnail">
-                  <img src="img/nu_lp.jpg" alt="San Francisco">
-                  <p><strong>San Francisco</strong></p>
-                  <p class="news">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
-
-                  <p>Sun. 29 November 2015</p>
-                  <button class="btn">Дізнатись більше</button>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="thumbnail">
-                  <img src="img/nu_lp.jpg" alt="San Francisco">
-                  <p><strong>San Francisco</strong></p>
-                  <p class="news">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
-
-                  <p>Sun. 29 November 2015</p>
-                  <button class="btn">Дізнатись більше</button>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="thumbnail">
-                  <img src="img/nu_lp.jpg" alt="San Francisco">
-                  <p><strong>San Francisco</strong></p>
-                  <p class="news">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
-
-                  <p>Sun. 29 November 2015</p>
-                  <button class="btn">Дізнатись більше</button>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="thumbnail">
-                  <img src="img/nu_lp.jpg" alt="San Francisco">
-                  <p><strong>San Francisco</strong></p>
-                  <p class="news">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
-
-                  <p>Sun. 29 November 2015</p>
-                  <button class="btn">Дізнатись більше</button>
-                </div>
+                    <li class="list-group-item col-sm-4 thumbnail">
+                      <article>
+                        <figure><img src="img/foto.jpg" alt=""></figure>
+                      </article>
+                      <div class="excerpt">
+                        <p><strong> Новина</strong></p>
+                        <p class="news"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                        <p>Дата</p>
+                      </div>
+                    </li>
+                    <li class="list-group-item col-sm-4 thumbnail">
+                      <article>
+                        <figure><img src="img/foto.jpg" alt=""></figure>
+                      </article>
+                      <div class="excerpt">
+                        <p><strong> Новина</strong></p>
+                        <p class="news"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                        <p>Дата</p>
+                      </div>
+                    </li>
+                    <li class="list-group-item col-sm-4 thumbnail">
+                      <article>
+                        <figure><img src="img/foto.jpg" alt=""></figure>
+                      </article>
+                      <div class="excerpt">
+                        <p><strong> Новина</strong></p>
+                        <p class="news"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                        <p>Дата</p>
+                      </div>
+                    </li>
+                    <li class="list-group-item col-sm-4 thumbnail">
+                      <article>
+                        <figure><img src="img/foto.jpg" alt=""></figure>
+                      </article>
+                      <div class="excerpt">
+                        <p><strong> Новина</strong></p>
+                        <p class="news"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                        <p>Дата</p>
+                      </div>
+                    </li>
+                    <li class="list-group-item col-sm-4 thumbnail">
+                      <article>
+                        <figure><img src="img/foto.jpg" alt=""></figure>
+                      </article>
+                      <div class="excerpt">
+                        <p><strong> Новина</strong></p>
+                        <p class="news"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                        <p>Дата</p>
+                      </div>
+                    </li>
+                    <li class="list-group-item col-sm-4 thumbnail">
+                      <article>
+                        <figure><img src="img/foto.jpg" alt=""></figure>
+                      </article>
+                      <div class="excerpt">
+                        <p><strong> Новина</strong></p>
+                        <p class="news"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                        <p>Дата</p>
+                      </div>
+                    </li>
+                  </ul>
+                  <br>
+                  <br>
+                </section>
               </div>
             </div>
           </div>
         </div>
-
-
-
-    <footer class="text-center" id="myFooter">
-      </a><br><br>
-      <p>© 2017 IoT@NULP Created by Volodymyr Popovych</a></p>
-    </footer>
       </div>
+
+
+
+      <footer class="text-center" id="myFooter">
+        </a><br><br>
+        <p>© 2017 IoT@NULP Created by Volodymyr Popovych</a>
+        </p>
+      </footer>
     </div>
+  </div>
   </div>
 
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="my.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/news.js"></script>
 </body>
 
 </html>

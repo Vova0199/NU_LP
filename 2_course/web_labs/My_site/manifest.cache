@@ -1,23 +1,7 @@
 CACHE MANIFEST
-index.html
-admin.html
 news.html
-plan.html
-response.html
-error.html
-css/bootstrap.css
-style.css
-admin.css
 news.css
-plan.css
-response.css
-js/bootstrap.min.js
+js/news.js
 img/foto.jpg
 img/bg.png
 img/resp_bg1.jpg
-
-fonts\glyphicons-halflings-regular.woff2
-fonts\glyphicons-halflings-regular.woff
-fonts\glyphicons-halflings-regular.ttf
-fonts\glyphicons-halflings-regular.svg
-fonts\glyphicons-halflings-regular.eot
