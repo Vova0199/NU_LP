@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Правове регулювання</title>
   <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="response.css">
 
 
@@ -46,105 +45,45 @@
   </nav>
 
 
-  <div class="parallax">
-    <div class="parallax__group">
-      <div class="parallax__layer parallax__layer--back">
-        <div class="bg">
-          <img src="img/resp_bg1.jpg" alt="" width="100%">
-        </div>
-      </div>
-      <div class="parallax__layer parallax__layer--base">
-        <div class="respons">
-          <div class="container bg-grey">
-            <div class="row">
+<div >
+
+
+            <div class="row col-sm-10">
+              <div class="col-sm-8">
               <form id="resp">
-                <input id="name" class="form-control" name="name" placeholder="Ваш нік" required minlength="5" maxlength="10">
-                <input id="position" class="form-control" name="position" placeholder="Посада" required>
-                <textarea id="comment" class="form-control" placeholder="Ваш коментар" rows="3" required></textarea>
-                <input id="btn" class="btn pull" type="button" value="Надіслати" onclick="add()">
+                
+                <textarea id="name" class="form-control" name="name" placeholder="Ваш Коментар" rows="3" required></textarea>
+
+                <input id="btn1" class="btn pull" type="button" value="Надіслати">
+
               </form>
+
+            <div id="addresp">
+            </div>
+            <div id="comments">
+              <ul id="list" class="list-unstyled">
+              </ul>
             </div>
 
-            <div class="row" id="addresp">
+
             </div>
 
-            <div class="row">
-              <div class="col-sm-3">
-                <img src="img/bg.png" class="img-circle" alt="Cinque Terre" width="150" height="150">
-              </div>
-              <div class="col-sm-8">
-                <h2>Вася Пупкін</h2>
-                <p><strong>Teacher<br></strong> Чоткий тіп робив цей сайт, я б поставив 5</p>
-              </div>
             </div>
+            <footer class="text-center" id="myFooter">
+              </a><br><br>
+              <p>© 2017 IoT@NULP Created by Volodymyr Popovych</a>
+              </p>
+            </footer>
 
-            <div class="row">
-              <div class="col-sm-3">
-                <img src="img/foto.jpg" class="img-circle" alt="Cinque Terre" width="150" height="150">
-              </div>
-              <div class="col-sm-8">
-                <h2>Вася Пупкін</h2>
-                <p><strong>Teacher<br></strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                  <laborum class=""></laborum>
-                </p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-3">
-                <img src="img/foto.jpg" class="img-circle" alt="Cinque Terre" width="150" height="150">
-              </div>
-              <div class="col-sm-8">
-                <h2>Вася Пупкін</h2>
-                <p><strong>Teacher<br></strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                  <laborum class=""></laborum>
-                </p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-3">
-                <img src="img/foto.jpg" class="img-circle" alt="Cinque Terre" width="150" height="150">
-              </div>
-              <div class="col-sm-8">
-                <h2>Вася Пупкін</h2>
-                <p><strong>Teacher<br></strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                  <laborum class=""></laborum>
-                </p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-3">
-                <img src="img/bg.png" class="img-circle" alt="Cinque Terre" width="150" height="150">
-              </div>
-              <div class="col-sm-8">
-                <h2>Вася Пупкін</h2>
-                <p><strong>Teacher<br></strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                  <laborum class=""></laborum>
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
 
 
-        <footer class="text-center" id="myFooter">
-          </a><br><br>
-          <p>© 2017 IoT@NULP Created by Volodymyr Popovych</a>
-          </p>
-        </footer>
-      </div>
-    </div>
-  </div>
 
-
-  <script src="js/response.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
 
-  </script>
+
+    <script src="js/response.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
