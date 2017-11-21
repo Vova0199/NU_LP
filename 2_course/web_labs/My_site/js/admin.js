@@ -4,32 +4,50 @@ var now = new Date();
 function isOnline() {
     return window.navigator.onLine;
 }
-function addLocal() {
-  i++;
-  var list = [];
-  list.push({"name":$('#name').val(),
-      "comments":$('#comments').val(),
-    "time":now.toDateString()});
-  localStorage.setItem(i, JSON.stringify(list));
-  $('#name').val('');
-  $('#comments').val('');
-}
+
 
 function AddNews() {
-    if (($('#name').val()==="") || ($('#comments').val()==="")) {
-        alert('Заповніть всі дані');
-        return false;
-    }
+  if (($('#name').val()==="") || ($('#comments').val()==="")) {
+      alert('Заповніть всі дані');
+      return false;
+  }
 
     if (isOnline()) {
-        addLocal();
+      i++;
+        alert('Новину успішно додано');
+        var list = [];
+        list.push({"name":$('#name').val(),
+            "comments":$('#comments').val(),
+          "time":now.toDateString()});
         $('#name').val('');
         $('#comments').val('');
-        alert('Новину успішно додано');
 
+            localStorage.setItem(i, JSON.stringify(list));
     }
-
     else {
-      addLocal();
+      if (useLocalStorage){
+        i++;
+        var list = [];
+        list.push({"name":$('#name').val(),
+            "comments":$('#comments').val(),
+          "time":now.toDateString()});
+        $('#name').val('');
+        $('#comments').val('');
+
+            localStorage.setItem(i, JSON.stringify(list));
+        }
+        else {
+            var transaction = db.transaction(["news"], "readwrite");
+            var store = transaction.objectStore("news");
+            var news1 = {
+                name: $('#name').val(),
+                comments: $('#comments').val(),
+                time :now.toDateString()
+              }
+              store.add(news1);
+            };
+        }
+
+        $('#comments').val('');
+        $('#name').val('');
     }
-}
