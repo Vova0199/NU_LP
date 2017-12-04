@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="information_schema">
+      <Current>1</Current>
+    </schema>
+    <schema id="3" parent="1" name="labor_sql"/>
+    <schema id="4" parent="1" name="lab_1"/>
+    <schema id="5" parent="1" name="mysql"/>
+    <schema id="6" parent="1" name="performance_schema"/>
+    <schema id="7" parent="1" name="pharmacy">
+      <Visible>1</Visible>
+    </schema>
+    <schema id="8" parent="1" name="sakila"/>
+    <schema id="9" parent="1" name="test"/>
+    <schema id="10" parent="1" name="world"/>
+    <schema id="11" parent="1" name="lab_5">
+      <Visible>1</Visible>
+    </schema>
+    <schema id="12" parent="1" name="mydb">
+      <Visible>1</Visible>
+    </schema>
+    <table id="13" parent="7" name="book"/>
+    <table id="14" parent="7" name="books"/>
+    <table id="15" parent="7" name="link"/>
+    <table id="16" parent="7" name="passwords"/>
+    <table id="17" parent="7" name="tree catalog"/>
+    <table id="18" parent="7" name="useres"/>
+    <table id="19" parent="12" name="company"/>
+    <table id="20" parent="12" name="gadget"/>
+    <table id="21" parent="12" name="gadget_has_user"/>
+    <table id="22" parent="12" name="user"/>
+    <column id="23" parent="13" name="idbooks">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="13" name="title">
+      <Position>2</Position>
+      <DataType>char(10)|0</DataType>
+    </column>
+    <column id="25" parent="13" name="authors">
+      <Position>3</Position>
+      <DataType>char(10)|0</DataType>
+    </column>
+    <column id="26" parent="13" name="rating">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="27" parent="13" name="formula">
+      <Position>5</Position>
+      <DataType>char(60)|0</DataType>
+    </column>
+    <key id="28" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idbooks</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="29" parent="14" name="idBooks">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="14" name="title">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="14" name="authors">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="14" name="rating">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="33" parent="14" name="UKD">
+      <Position>5</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="34" parent="14" name="ffff">
+      <Position>6</Position>
+      <DataType>varchar(90)|0</DataType>
+    </column>
+    <index id="35" parent="14" name="idBooks_UNIQUE">
+      <ColNames>idBooks</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="36" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>title</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="37" parent="14" name="idBooks_UNIQUE">
+      <ColNames>idBooks</ColNames>
+      <UnderlyingIndexName>idBooks_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="38" parent="15" name="idLink">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="39" parent="15" name="adress">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <index id="40" parent="15" name="idLink_UNIQUE">
+      <ColNames>idLink</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="41" parent="15" name="idLink_UNIQUE">
+      <ColNames>idLink</ColNames>
+      <UnderlyingIndexName>idLink_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="42" parent="16" name="idPasswords">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="16" name="password">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <index id="44" parent="16" name="idPasswords_UNIQUE">
+      <ColNames>idPasswords</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="45" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idPasswords</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="46" parent="16" name="idPasswords_UNIQUE">
+      <ColNames>idPasswords</ColNames>
+      <UnderlyingIndexName>idPasswords_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="47" parent="17" name="idTree catalog">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="17" name="rubric">
+      <Position>2</Position>
+      <DataType>varchar(15)|0</DataType>
+    </column>
+    <index id="49" parent="17" name="idTree catalog_UNIQUE">
+      <ColNames>idTree catalog</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="50" parent="17" name="idTree catalog_UNIQUE">
+      <ColNames>idTree catalog</ColNames>
+      <UnderlyingIndexName>idTree catalog_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="51" parent="18" name="idEmployers">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="52" parent="18" name="Surname">
+      <Position>2</Position>
+      <DataType>varchar(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="18" name="namee">
+      <Position>3</Position>
+      <DataType>varchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="18" name="middleName">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="18" name="login">
+      <Position>5</Position>
+      <DataType>varchar(16)|0</DataType>
+    </column>
+    <column id="56" parent="18" name="placeOfBirthday">
+      <Position>6</Position>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="57" parent="18" name="dateOfbirthday">
+      <Position>7</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <column id="58" parent="18" name="home">
+      <Position>8</Position>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="59" parent="18" name="note">
+      <Position>9</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="60" parent="18" name="rating">
+      <Position>10</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <index id="61" parent="18" name="idEmployers_UNIQUE">
+      <ColNames>idEmployers</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="62" parent="18" name="Ihome">
+      <ColNames>home</ColNames>
+    </index>
+    <index id="63" parent="18" name="IplaceOfBirthday">
+      <ColNames>placeOfBirthday</ColNames>
+    </index>
+    <index id="64" parent="18" name="LoginUI">
+      <ColNames>login</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="65" parent="18" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Surname
+namee
+middleName</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="66" parent="18" name="idEmployers_UNIQUE">
+      <ColNames>idEmployers</ColNames>
+      <UnderlyingIndexName>idEmployers_UNIQUE</UnderlyingIndexName>
+    </key>
+    <key id="67" parent="18" name="LoginUI">
+      <ColNames>login</ColNames>
+      <UnderlyingIndexName>LoginUI</UnderlyingIndexName>
+    </key>
+    <column id="68" parent="19" name="idCompany">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="19" name="Name">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <key id="70" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idCompany</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="71" parent="20" name="idgadget">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="20" name="title">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="73" parent="20" name="price">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="74" parent="20" name="Company_idCompany">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="75" parent="20" name="fk_gadget_Company_idx">
+      <ColNames>Company_idCompany</ColNames>
+    </index>
+    <key id="76" parent="20" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idgadget
+Company_idCompany</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="77" parent="20" name="fk_gadget_Company">
+      <ColNames>Company_idCompany</ColNames>
+      <RefSchemaName>mydb</RefSchemaName>
+      <RefTableName>company</RefTableName>
+      <RefColNames>idCompany</RefColNames>
+    </foreign-key>
+    <column id="78" parent="21" name="gadget_idgadget">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="79" parent="21" name="user_iduser">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="80" parent="21" name="fk_gadget_has_user_gadget1_idx">
+      <ColNames>gadget_idgadget</ColNames>
+    </index>
+    <index id="81" parent="21" name="fk_gadget_has_user_user1_idx">
+      <ColNames>user_iduser</ColNames>
+    </index>
+    <key id="82" parent="21" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>gadget_idgadget
+user_iduser</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="83" parent="21" name="fk_gadget_has_user_gadget1">
+      <ColNames>gadget_idgadget</ColNames>
+      <RefSchemaName>mydb</RefSchemaName>
+      <RefTableName>gadget</RefTableName>
+      <RefColNames>idgadget</RefColNames>
+    </foreign-key>
+    <foreign-key id="84" parent="21" name="fk_gadget_has_user_user1">
+      <ColNames>user_iduser</ColNames>
+      <RefSchemaName>mydb</RefSchemaName>
+      <RefTableName>user</RefTableName>
+      <RefColNames>iduser</RefColNames>
+    </foreign-key>
+    <column id="85" parent="22" name="iduser">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="22" name="name">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="87" parent="22" name="surname">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="88" parent="22" name="position">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="89" parent="22" name="age">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <key id="90" parent="22" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>iduser</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

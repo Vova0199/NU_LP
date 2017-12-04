@@ -21,7 +21,8 @@ class lab_5(object):
             cur = next_queue
         return 0
 
+d1 = {"hot", "dot", "dog", "lot", "log", "cog"}
 
 if __name__ == "__main__":
-  #  print(Solution().ladderLength("hit", "cog", {"hot", "dot", "dog", "lot", "log"}))
-    print(lab_5().ladderLength("hit", "cog", {"hot", "dot", "dog", "lot", "log", "cog"}))
+    #print(lab_5().ladderLength("hit", "cog", {"hot", "dot", "dog", "lot", "log"}))
+    print(lab_5().ladderLength("hit", "cog", d1))
