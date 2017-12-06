@@ -59,54 +59,60 @@
       <file leaf-file-name="lab_5.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/popovych/lab_5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1533">
-              <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+            <state relative-caret-position="-881">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#readData#0;class#lab_5#0" expanded="false" />
-                <element signature="method#updateDataCity#0;class#lab_5#0" expanded="false" />
                 <element signature="method#insertDataCity#0;class#lab_5#0" expanded="false" />
-                <element signature="method#DeleteDataCity#0;class#lab_5#0" expanded="false" />
-                <marker date="1512396281533" expanded="true" signature="1035:1055" ph="..." />
-                <marker date="1512396281533" expanded="true" signature="1035:1064" ph="..." />
-                <marker date="1512396281533" expanded="true" signature="2183:2204" ph="SELECT COUNT... Book" />
-                <marker date="1512396281533" expanded="true" signature="2183:2208" ph="SELECT COUNT... user" />
-                <marker date="1512396281533" expanded="true" signature="2552:2566" ph="SELECT * FRO... Book" />
-                <marker date="1512396281533" expanded="true" signature="2552:2570" ph="SELECT * FRO... user" />
-                <marker date="1512396281533" expanded="true" signature="3339:3359" ph="SELECT * FRO... gadget" />
-                <marker date="1512396281533" expanded="true" signature="3954:3975" ph="SELECT * FRO... company" />
-                <marker date="1512396281533" expanded="true" signature="4938:4991" ph="UPDATE title... " />
-                <marker date="1512396281533" expanded="true" signature="4938:5008" ph="UPDATE city " />
-                <marker date="1512396281533" expanded="true" signature="6753:6787" ph="DELETE FROM " />
+                <marker date="1512475558380" expanded="true" signature="1035:1055" ph="..." />
+                <marker date="1512475558380" expanded="true" signature="2183:2204" ph="SELECT COUNT... Book" />
+                <marker date="1512475558380" expanded="true" signature="2183:2208" ph="SELECT COUNT... user" />
+                <marker date="1512475558380" expanded="true" signature="2552:2566" ph="SELECT * FRO... Book" />
+                <marker date="1512475558380" expanded="true" signature="2552:2570" ph="SELECT * FRO... user" />
+                <marker date="1512475558380" expanded="true" signature="3339:3359" ph="SELECT * FRO... gadget" />
+                <marker date="1512475558380" expanded="true" signature="3954:3975" ph="SELECT * FRO... company" />
+                <marker date="1512475558380" expanded="true" signature="4938:4991" ph="UPDATE title... " />
+                <marker date="1512475558380" expanded="true" signature="4938:5008" ph="UPDATE city " />
+                <marker date="1512475558380" expanded="true" signature="6753:6787" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mydb.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gadget" pinned="false" current-in-tab="false">
+        <entry file="das://table:/fe8fa5fe/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.gadget">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user" pinned="false" current-in-tab="false">
+        <entry file="das://table:/fe8fa5fe/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="company" pinned="false" current-in-tab="true">
+        <entry file="das://table:/fe8fa5fe/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.company">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mydb.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/sql_script/mydb.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="806">
+            <state relative-caret-position="722">
               <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="company" pinned="false" current-in-tab="false">
-        <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.company">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gadget" pinned="false" current-in-tab="false">
-        <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.gadget">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -161,9 +167,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,6 +180,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -182,6 +188,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -319,40 +326,41 @@
       <workItem from="1512370908018" duration="433000" />
       <workItem from="1512390683134" duration="5595000" />
       <workItem from="1512396362094" duration="57000" />
+      <workItem from="1512475342782" duration="282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12811000" />
+    <option name="totallyTimeSpent" value="13093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3405467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14446831" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14661655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15682063" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -383,38 +391,61 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#readData#0;class#lab_5#0" expanded="false" />
-            <element signature="method#updateDataCity#0;class#lab_5#0" expanded="false" />
             <element signature="method#insertDataCity#0;class#lab_5#0" expanded="false" />
-            <element signature="method#DeleteDataCity#0;class#lab_5#0" expanded="false" />
-            <marker date="1512396281533" expanded="true" signature="1035:1055" ph="..." />
-            <marker date="1512396281533" expanded="true" signature="1035:1064" ph="..." />
-            <marker date="1512396281533" expanded="true" signature="2183:2204" ph="SELECT COUNT... Book" />
-            <marker date="1512396281533" expanded="true" signature="2183:2208" ph="SELECT COUNT... user" />
-            <marker date="1512396281533" expanded="true" signature="2552:2566" ph="SELECT * FRO... Book" />
-            <marker date="1512396281533" expanded="true" signature="2552:2570" ph="SELECT * FRO... user" />
-            <marker date="1512396281533" expanded="true" signature="3339:3359" ph="SELECT * FRO... gadget" />
-            <marker date="1512396281533" expanded="true" signature="3954:3975" ph="SELECT * FRO... company" />
-            <marker date="1512396281533" expanded="true" signature="4938:4991" ph="UPDATE title... " />
-            <marker date="1512396281533" expanded="true" signature="4938:5008" ph="UPDATE city " />
-            <marker date="1512396281533" expanded="true" signature="6753:6787" ph="DELETE FROM " />
+            <marker date="1512475558380" expanded="true" signature="1035:1055" ph="..." />
+            <marker date="1512475558380" expanded="true" signature="2183:2204" ph="SELECT COUNT... Book" />
+            <marker date="1512475558380" expanded="true" signature="2183:2208" ph="SELECT COUNT... user" />
+            <marker date="1512475558380" expanded="true" signature="2552:2566" ph="SELECT * FRO... Book" />
+            <marker date="1512475558380" expanded="true" signature="2552:2570" ph="SELECT * FRO... user" />
+            <marker date="1512475558380" expanded="true" signature="3339:3359" ph="SELECT * FRO... gadget" />
+            <marker date="1512475558380" expanded="true" signature="3954:3975" ph="SELECT * FRO... company" />
+            <marker date="1512475558380" expanded="true" signature="4938:4991" ph="UPDATE title... " />
+            <marker date="1512475558380" expanded="true" signature="4938:5008" ph="UPDATE city " />
+            <marker date="1512475558380" expanded="true" signature="6753:6787" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.company">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql_script/mydb.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1953">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.gadget">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/popovych/lab_5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3990">
+          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#readData#0;class#lab_5#0" expanded="false" />
+            <element signature="method#insertDataCity#0;class#lab_5#0" expanded="false" />
+            <marker date="1512475558380" expanded="true" signature="1035:1055" ph="..." />
+            <marker date="1512475558380" expanded="true" signature="2183:2204" ph="SELECT COUNT... Book" />
+            <marker date="1512475558380" expanded="true" signature="2183:2208" ph="SELECT COUNT... user" />
+            <marker date="1512475558380" expanded="true" signature="2552:2566" ph="SELECT * FRO... Book" />
+            <marker date="1512475558380" expanded="true" signature="2552:2570" ph="SELECT * FRO... user" />
+            <marker date="1512475558380" expanded="true" signature="3339:3359" ph="SELECT * FRO... gadget" />
+            <marker date="1512475558380" expanded="true" signature="3954:3975" ph="SELECT * FRO... company" />
+            <marker date="1512475558380" expanded="true" signature="4938:4991" ph="UPDATE title... " />
+            <marker date="1512475558380" expanded="true" signature="4938:5008" ph="UPDATE city " />
+            <marker date="1512475558380" expanded="true" signature="6753:6787" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.company" />
+    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.gadget" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/sql_script/mydb.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1953">
@@ -446,20 +477,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.company">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.gadget">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.company" />
+    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.gadget" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/popovych/lab_5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2310">
@@ -467,20 +486,17 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#readData#0;class#lab_5#0" expanded="false" />
-            <element signature="method#updateDataCity#0;class#lab_5#0" expanded="false" />
             <element signature="method#insertDataCity#0;class#lab_5#0" expanded="false" />
-            <element signature="method#DeleteDataCity#0;class#lab_5#0" expanded="false" />
-            <marker date="1512396281533" expanded="true" signature="1035:1055" ph="..." />
-            <marker date="1512396281533" expanded="true" signature="1035:1064" ph="..." />
-            <marker date="1512396281533" expanded="true" signature="2183:2204" ph="SELECT COUNT... Book" />
-            <marker date="1512396281533" expanded="true" signature="2183:2208" ph="SELECT COUNT... user" />
-            <marker date="1512396281533" expanded="true" signature="2552:2566" ph="SELECT * FRO... Book" />
-            <marker date="1512396281533" expanded="true" signature="2552:2570" ph="SELECT * FRO... user" />
-            <marker date="1512396281533" expanded="true" signature="3339:3359" ph="SELECT * FRO... gadget" />
-            <marker date="1512396281533" expanded="true" signature="3954:3975" ph="SELECT * FRO... company" />
-            <marker date="1512396281533" expanded="true" signature="4938:4991" ph="UPDATE title... " />
-            <marker date="1512396281533" expanded="true" signature="4938:5008" ph="UPDATE city " />
-            <marker date="1512396281533" expanded="true" signature="6753:6787" ph="DELETE FROM " />
+            <marker date="1512475558380" expanded="true" signature="1035:1055" ph="..." />
+            <marker date="1512475558380" expanded="true" signature="2183:2204" ph="SELECT COUNT... Book" />
+            <marker date="1512475558380" expanded="true" signature="2183:2208" ph="SELECT COUNT... user" />
+            <marker date="1512475558380" expanded="true" signature="2552:2566" ph="SELECT * FRO... Book" />
+            <marker date="1512475558380" expanded="true" signature="2552:2570" ph="SELECT * FRO... user" />
+            <marker date="1512475558380" expanded="true" signature="3339:3359" ph="SELECT * FRO... gadget" />
+            <marker date="1512475558380" expanded="true" signature="3954:3975" ph="SELECT * FRO... company" />
+            <marker date="1512475558380" expanded="true" signature="4938:4991" ph="UPDATE title... " />
+            <marker date="1512475558380" expanded="true" signature="4938:5008" ph="UPDATE city " />
+            <marker date="1512475558380" expanded="true" signature="6753:6787" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -508,20 +524,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.company">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.gadget">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.company" />
+    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.gadget" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/popovych/lab_5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1827">
@@ -529,20 +533,17 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#readData#0;class#lab_5#0" expanded="false" />
-            <element signature="method#updateDataCity#0;class#lab_5#0" expanded="false" />
             <element signature="method#insertDataCity#0;class#lab_5#0" expanded="false" />
-            <element signature="method#DeleteDataCity#0;class#lab_5#0" expanded="false" />
-            <marker date="1512396281533" expanded="true" signature="1035:1055" ph="..." />
-            <marker date="1512396281533" expanded="true" signature="1035:1064" ph="..." />
-            <marker date="1512396281533" expanded="true" signature="2183:2204" ph="SELECT COUNT... Book" />
-            <marker date="1512396281533" expanded="true" signature="2183:2208" ph="SELECT COUNT... user" />
-            <marker date="1512396281533" expanded="true" signature="2552:2566" ph="SELECT * FRO... Book" />
-            <marker date="1512396281533" expanded="true" signature="2552:2570" ph="SELECT * FRO... user" />
-            <marker date="1512396281533" expanded="true" signature="3339:3359" ph="SELECT * FRO... gadget" />
-            <marker date="1512396281533" expanded="true" signature="3954:3975" ph="SELECT * FRO... company" />
-            <marker date="1512396281533" expanded="true" signature="4938:4991" ph="UPDATE title... " />
-            <marker date="1512396281533" expanded="true" signature="4938:5008" ph="UPDATE city " />
-            <marker date="1512396281533" expanded="true" signature="6753:6787" ph="DELETE FROM " />
+            <marker date="1512475558380" expanded="true" signature="1035:1055" ph="..." />
+            <marker date="1512475558380" expanded="true" signature="2183:2204" ph="SELECT COUNT... Book" />
+            <marker date="1512475558380" expanded="true" signature="2183:2208" ph="SELECT COUNT... user" />
+            <marker date="1512475558380" expanded="true" signature="2552:2566" ph="SELECT * FRO... Book" />
+            <marker date="1512475558380" expanded="true" signature="2552:2570" ph="SELECT * FRO... user" />
+            <marker date="1512475558380" expanded="true" signature="3339:3359" ph="SELECT * FRO... gadget" />
+            <marker date="1512475558380" expanded="true" signature="3954:3975" ph="SELECT * FRO... company" />
+            <marker date="1512475558380" expanded="true" signature="4938:4991" ph="UPDATE title... " />
+            <marker date="1512475558380" expanded="true" signature="4938:5008" ph="UPDATE city " />
+            <marker date="1512475558380" expanded="true" signature="6753:6787" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -562,20 +563,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.company">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.gadget">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.company" />
+    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.gadget" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/popovych/lab_5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1974">
@@ -583,20 +572,17 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#readData#0;class#lab_5#0" expanded="false" />
-            <element signature="method#updateDataCity#0;class#lab_5#0" expanded="false" />
             <element signature="method#insertDataCity#0;class#lab_5#0" expanded="false" />
-            <element signature="method#DeleteDataCity#0;class#lab_5#0" expanded="false" />
-            <marker date="1512396281533" expanded="true" signature="1035:1055" ph="..." />
-            <marker date="1512396281533" expanded="true" signature="1035:1064" ph="..." />
-            <marker date="1512396281533" expanded="true" signature="2183:2204" ph="SELECT COUNT... Book" />
-            <marker date="1512396281533" expanded="true" signature="2183:2208" ph="SELECT COUNT... user" />
-            <marker date="1512396281533" expanded="true" signature="2552:2566" ph="SELECT * FRO... Book" />
-            <marker date="1512396281533" expanded="true" signature="2552:2570" ph="SELECT * FRO... user" />
-            <marker date="1512396281533" expanded="true" signature="3339:3359" ph="SELECT * FRO... gadget" />
-            <marker date="1512396281533" expanded="true" signature="3954:3975" ph="SELECT * FRO... company" />
-            <marker date="1512396281533" expanded="true" signature="4938:4991" ph="UPDATE title... " />
-            <marker date="1512396281533" expanded="true" signature="4938:5008" ph="UPDATE city " />
-            <marker date="1512396281533" expanded="true" signature="6753:6787" ph="DELETE FROM " />
+            <marker date="1512475558380" expanded="true" signature="1035:1055" ph="..." />
+            <marker date="1512475558380" expanded="true" signature="2183:2204" ph="SELECT COUNT... Book" />
+            <marker date="1512475558380" expanded="true" signature="2183:2208" ph="SELECT COUNT... user" />
+            <marker date="1512475558380" expanded="true" signature="2552:2566" ph="SELECT * FRO... Book" />
+            <marker date="1512475558380" expanded="true" signature="2552:2570" ph="SELECT * FRO... user" />
+            <marker date="1512475558380" expanded="true" signature="3339:3359" ph="SELECT * FRO... gadget" />
+            <marker date="1512475558380" expanded="true" signature="3954:3975" ph="SELECT * FRO... company" />
+            <marker date="1512475558380" expanded="true" signature="4938:4991" ph="UPDATE title... " />
+            <marker date="1512475558380" expanded="true" signature="4938:5008" ph="UPDATE city " />
+            <marker date="1512475558380" expanded="true" signature="6753:6787" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -616,20 +602,17 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#readData#0;class#lab_5#0" expanded="false" />
-            <element signature="method#updateDataCity#0;class#lab_5#0" expanded="false" />
             <element signature="method#insertDataCity#0;class#lab_5#0" expanded="false" />
-            <element signature="method#DeleteDataCity#0;class#lab_5#0" expanded="false" />
-            <marker date="1512396281533" expanded="true" signature="1035:1055" ph="..." />
-            <marker date="1512396281533" expanded="true" signature="1035:1064" ph="..." />
-            <marker date="1512396281533" expanded="true" signature="2183:2204" ph="SELECT COUNT... Book" />
-            <marker date="1512396281533" expanded="true" signature="2183:2208" ph="SELECT COUNT... user" />
-            <marker date="1512396281533" expanded="true" signature="2552:2566" ph="SELECT * FRO... Book" />
-            <marker date="1512396281533" expanded="true" signature="2552:2570" ph="SELECT * FRO... user" />
-            <marker date="1512396281533" expanded="true" signature="3339:3359" ph="SELECT * FRO... gadget" />
-            <marker date="1512396281533" expanded="true" signature="3954:3975" ph="SELECT * FRO... company" />
-            <marker date="1512396281533" expanded="true" signature="4938:4991" ph="UPDATE title... " />
-            <marker date="1512396281533" expanded="true" signature="4938:5008" ph="UPDATE city " />
-            <marker date="1512396281533" expanded="true" signature="6753:6787" ph="DELETE FROM " />
+            <marker date="1512475558380" expanded="true" signature="1035:1055" ph="..." />
+            <marker date="1512475558380" expanded="true" signature="2183:2204" ph="SELECT COUNT... Book" />
+            <marker date="1512475558380" expanded="true" signature="2183:2208" ph="SELECT COUNT... user" />
+            <marker date="1512475558380" expanded="true" signature="2552:2566" ph="SELECT * FRO... Book" />
+            <marker date="1512475558380" expanded="true" signature="2552:2570" ph="SELECT * FRO... user" />
+            <marker date="1512475558380" expanded="true" signature="3339:3359" ph="SELECT * FRO... gadget" />
+            <marker date="1512475558380" expanded="true" signature="3954:3975" ph="SELECT * FRO... company" />
+            <marker date="1512475558380" expanded="true" signature="4938:4991" ph="UPDATE title... " />
+            <marker date="1512475558380" expanded="true" signature="4938:5008" ph="UPDATE city " />
+            <marker date="1512475558380" expanded="true" signature="6753:6787" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -649,13 +632,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/pharmacy.book">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/pharmacy.book" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -664,13 +641,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.gadget">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.gadget" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a14f6f43-d88b-497f-ab17-65a8b9662b2d/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -678,7 +649,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.company">
+    <entry file="das://table:/921523f0/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.company" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql_script/mydb.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/fe8fa5fe/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/fe8fa5fe/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.gadget">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -687,34 +674,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/popovych/lab_5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1533">
-          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+        <state relative-caret-position="-881">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#readData#0;class#lab_5#0" expanded="false" />
-            <element signature="method#updateDataCity#0;class#lab_5#0" expanded="false" />
             <element signature="method#insertDataCity#0;class#lab_5#0" expanded="false" />
-            <element signature="method#DeleteDataCity#0;class#lab_5#0" expanded="false" />
-            <marker date="1512396281533" expanded="true" signature="1035:1055" ph="..." />
-            <marker date="1512396281533" expanded="true" signature="1035:1064" ph="..." />
-            <marker date="1512396281533" expanded="true" signature="2183:2204" ph="SELECT COUNT... Book" />
-            <marker date="1512396281533" expanded="true" signature="2183:2208" ph="SELECT COUNT... user" />
-            <marker date="1512396281533" expanded="true" signature="2552:2566" ph="SELECT * FRO... Book" />
-            <marker date="1512396281533" expanded="true" signature="2552:2570" ph="SELECT * FRO... user" />
-            <marker date="1512396281533" expanded="true" signature="3339:3359" ph="SELECT * FRO... gadget" />
-            <marker date="1512396281533" expanded="true" signature="3954:3975" ph="SELECT * FRO... company" />
-            <marker date="1512396281533" expanded="true" signature="4938:4991" ph="UPDATE title... " />
-            <marker date="1512396281533" expanded="true" signature="4938:5008" ph="UPDATE city " />
-            <marker date="1512396281533" expanded="true" signature="6753:6787" ph="DELETE FROM " />
+            <marker date="1512475558380" expanded="true" signature="1035:1055" ph="..." />
+            <marker date="1512475558380" expanded="true" signature="2183:2204" ph="SELECT COUNT... Book" />
+            <marker date="1512475558380" expanded="true" signature="2183:2208" ph="SELECT COUNT... user" />
+            <marker date="1512475558380" expanded="true" signature="2552:2566" ph="SELECT * FRO... Book" />
+            <marker date="1512475558380" expanded="true" signature="2552:2570" ph="SELECT * FRO... user" />
+            <marker date="1512475558380" expanded="true" signature="3339:3359" ph="SELECT * FRO... gadget" />
+            <marker date="1512475558380" expanded="true" signature="3954:3975" ph="SELECT * FRO... company" />
+            <marker date="1512475558380" expanded="true" signature="4938:4991" ph="UPDATE title... " />
+            <marker date="1512475558380" expanded="true" signature="4938:5008" ph="UPDATE city " />
+            <marker date="1512475558380" expanded="true" signature="6753:6787" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql_script/mydb.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
+    <entry file="das://table:/fe8fa5fe/a14f6f43-d88b-497f-ab17-65a8b9662b2d/mydb.company">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>

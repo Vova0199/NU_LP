@@ -12,7 +12,10 @@
     "nodemon": "^1.12.1"
   },
   "dependencies": {
+    "cors": "^2.8.4",
     "express": "^4.16.2",
-    "mongodb": "^2.2.33"
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.13.6",
+    "morgan": "^1.9.0"
   }
 }
