@@ -69,9 +69,6 @@ def quicksort(myList, start, end):
     return myList
 
 
-
-
-
 if __name__ == '__main__':
     quicksort_start_time = time.time()
     file = open('1000_input.txt', 'r')

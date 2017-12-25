@@ -9,6 +9,8 @@
 -- 
 -- TABLE: electrick 
 --
+CREATE SCHEMA lab_6;
+USE lab_6;
 
 CREATE TABLE electrick(
     id       INT         AUTO_INCREMENT,

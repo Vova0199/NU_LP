@@ -53,8 +53,8 @@ public class Main {
 //            AddGadgetForPerson(session);
 //            ReadAllTable(session);
 
-//            ReadCityTable(session);
-//            updateCity(session);
+            ReadCityTable(session);
+            updateCity(session);
 
 
             System.out.println("Finish work!");
@@ -227,14 +227,7 @@ public class Main {
         System.out.println("Input NameBook for Book: ");
         String book = input.next();
 
-        //to JPA 2.0
-//        Query query = session.createSQLQuery(
-//                "CALL InsertPersonBook(:Person, :Book)")
-//                .setParameter("Person", surname)
-//                .setParameter("Book", book);
-//        System.out.println(query.list().get(0));
 
-        //from JPA 2.1
         StoredProcedureQuery query = session
                 .createStoredProcedureQuery("InsertPersonBook")
                 .registerStoredProcedureParameter("SurmanePersonIn", String.class, ParameterMode.IN)

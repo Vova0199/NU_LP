@@ -24,5 +24,4 @@ class lab_5(object):
 d1 = {"hot", "dot", "dog", "lot", "log", "cog"}
 
 if __name__ == "__main__":
-    #print(lab_5().ladderLength("hit", "cog", {"hot", "dot", "dog", "lot", "log"}))
     print(lab_5().ladderLength("hit", "cog", d1))

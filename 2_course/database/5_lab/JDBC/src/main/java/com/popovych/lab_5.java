@@ -65,8 +65,6 @@ public class lab_5 {
     }
 
     private static void readData() throws SQLException {
-//region    SELECT COUNT(*) FROM Person //
-        // 3. executing SELECT query
         rs = statement.executeQuery("SELECT COUNT(*) FROM user");
 
         // 4. Process the result set
@@ -75,13 +73,8 @@ public class lab_5 {
             // Simply Print the results
             System.out.format("\ncount: %d\n", count);
         }
-        //endregion
-
-//region    SELECT * FROM Person //
-        // 3. executing SELECT query
         rs = statement.executeQuery("SELECT * FROM user");
 
-        // 4. Process the result set
         System.out.format("\nTable User --------------------\n");
         System.out.format("%3s %-12s %-12s %-10s %s\n", "iduser", "name", "surname", "position", "age");
         while (rs.next()) {
@@ -93,13 +86,8 @@ public class lab_5 {
             // Simply Print the results
             System.out.format("%6d %-12s %-12s %-10s %s\n", iduser, surname, name, position, age);
         }
-        //endregion
-
-//region    SELECT * FROM Book //
-        // 3. executing SELECT query
         rs = statement.executeQuery("SELECT * FROM gadget");
 
-        // 4. Process the result set
         System.out.format("\nTable gadget --------------------\n");
         System.out.format("%3s %-18s %-18s", "ID", "title", "price");
         while (rs.next()) {
@@ -109,22 +97,14 @@ public class lab_5 {
             // Simply Print the results
             System.out.format("\n%3d %-18s %-18s", id, title, price);
         }
-        //endregion
-
-//region    SELECT * FROM City //
-        // 3. executing SELECT query
         rs = statement.executeQuery("SELECT * FROM company");
 
-        // 4. Process the result set
         System.out.format("\n\nTable Company --------------------\n");
-        System.out.format("%6s %-12s %-12s %s\n", "idComp", "Name", "date", "location");
+        System.out.format("%6s %s\n", "idComp", "Name");
         while (rs.next()) {
             int id = rs.getInt("idCompany");
             String name = rs.getString("Name");
-            String date = rs.getString("date");
-            String location = rs.getString("location");
-            // Simply Print the results
-            System.out.format("%6d %-12s %-12s %s\n", id, name, date, location);
+            System.out.format("%6d %s\n", id, name);
         }
 
     }
@@ -136,21 +116,7 @@ public class lab_5 {
         System.out.println("Input new name for " + oldTitle);
         String title = input.next();
 
-        // 3. executing SELECT query
-// 1
         statement.execute("UPDATE gadget SET title='" + title + "' WHERE title='" + oldTitle + "';");
-
-// 2  Returns count of updated rows
-//        int n=statement.executeUpdate("UPDATE oldTitle SET City='"+title+"' WHERE City='"+oldTitle+"';");
-//        System.out.println("Count rows that updated: "+n);
-
-// 3  PreparedStatements can use variables and are more efficient
-//        PreparedStatement preparedStatement;
-//        preparedStatement=connection.prepareStatement("UPDATE oldTitle SET City=? WHERE City=?;");
-//        preparedStatement.setString(1, title);
-//        preparedStatement.setString(2, oldTitle);
-//        int n=preparedStatement.executeUpdate();
-//        System.out.println("Count rows that updated: "+n);
 
     }
 
