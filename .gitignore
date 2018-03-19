@@ -4,3 +4,14 @@
 2_course/web_labs/My_site/node_modules/braces/LICENSE
 *.js
 *.patch
+2_course/web_labs/My_site/node_modules/path-is-absolute/license
+2_course/web_labs/My_site/node_modules/mongodb/Makefile
+2_course/web_labs/My_site/node_modules/.bin/mime
+*.cmd
+2_course/web_labs/My_site/node_modules/.bin/nodetouch
+2_course/web_labs/My_site/node_modules/.bin/which
+2_course/web_labs/My_site/node_modules/.bin/nodemon
+2_course/web_labs/My_site/node_modules/.bin/nopt
+2_course/web_labs/My_site/node_modules/yallist/LICENSE
+2_course/web_labs/My_site/node_modules/widest-line/license
+2_course/web_labs/My_site/node_modules/utils-merge/LICENSE

@@ -1,0 +1,27 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega2560</DEVICE>
+ <WORKING_DIR>C:\Users\User\Documents\GitHub\NU_LP\2_course\2_semester\Microcontrollers</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\User\Documents\GitHub\NU_LP\2_course\2_semester\Microcontrollers\Lab_1.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m2560def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\User\Documents\GitHub\NU_LP\2_course\2_semester\Microcontrollers\Lab_1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\User\Documents\GitHub\NU_LP\2_course\2_semester\Microcontrollers\Lab_1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\User\Documents\GitHub\NU_LP\2_course\2_semester\Microcontrollers\Lab_1.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Reset><FILE>C:\Users\User\Documents\GitHub\NU_LP\2_course\2_semester\Microcontrollers\Lab_1.asm</FILE><LINE>12</LINE></Reset>
+  <Proga><FILE>C:\Users\User\Documents\GitHub\NU_LP\2_course\2_semester\Microcontrollers\Lab_1.asm</FILE><LINE>23</LINE></Proga>
+  <Delay><FILE>C:\Users\User\Documents\GitHub\NU_LP\2_course\2_semester\Microcontrollers\Lab_1.asm</FILE><LINE>58</LINE></Delay>
+  <PDelay><FILE>C:\Users\User\Documents\GitHub\NU_LP\2_course\2_semester\Microcontrollers\Lab_1.asm</FILE><LINE>63</LINE></PDelay>
+ </LABELS>
+</ASSEMBLER_INFO>
