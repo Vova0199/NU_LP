@@ -1,8 +1,0 @@
-DELIMITER ;;
-
-CREATE TRIGGER `my_table_bi`
-BEFORE INSERT ON user FOR EACH ROW
-BEGIN	
-	SET NEW.login = min(surname);
-END;;
-DELIMITER ;

@@ -1,1 +1,0 @@
-SELECT CONVERT(varchar, date, 104) from Battles;

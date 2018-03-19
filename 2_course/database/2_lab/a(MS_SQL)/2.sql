@@ -1,1 +1,0 @@
-select date from Pass_in_trip where place like '1%';
