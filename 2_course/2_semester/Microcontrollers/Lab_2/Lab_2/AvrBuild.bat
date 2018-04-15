@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "E:\GitHub\NU_LP\2_course\2_semester\Microcontrollers\Lab_2\Lab_2\labels.tmp" -fI -W+ie -C V3 -o "E:\GitHub\NU_LP\2_course\2_semester\Microcontrollers\Lab_2\Lab_2\Lab_2.hex" -d "E:\GitHub\NU_LP\2_course\2_semester\Microcontrollers\Lab_2\Lab_2\Lab_2.obj" -e "E:\GitHub\NU_LP\2_course\2_semester\Microcontrollers\Lab_2\Lab_2\Lab_2.eep" -m "E:\GitHub\NU_LP\2_course\2_semester\Microcontrollers\Lab_2\Lab_2\Lab_2.map" "E:\GitHub\NU_LP\2_course\2_semester\Microcontrollers\Lab_2\Lab_2\Lab_2.asm"
