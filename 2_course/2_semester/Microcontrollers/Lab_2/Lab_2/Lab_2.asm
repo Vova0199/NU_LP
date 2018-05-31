@@ -1,5 +1,5 @@
 .include "m2560def.inc"
-.def	_flag2  = r1 ; 0б≥т - пауза =0 (пораховано), =1(ще рахуЇ)
+.def	_flag2  = r1 
 .def    temp =  r16
 .def	_count2= r22
 .def	_countA= r23
@@ -9,14 +9,14 @@
 
 
 
-.dseg 						//сегмент даних
+.dseg 					
 
 .cseg
 		.org	$000 
-		jmp	RESET 		;Reset Handler
+		jmp	RESET 	
 		.org $001C 
-		jmp TIM1_COMP ; Timer2 CompareB Handler
-		.org $0022  ; SPM Ready Handler
+		jmp TIM1_COMP
+		.org $0022 
 		reti
 
 
@@ -24,7 +24,7 @@ TIM1_COMP:
 		sbrs	_flag2, 0	
 		rjmp	T2end		
 		inc		_count2;
-		cpi		_count2, 25  ;(t=0.8c)
+		cpi		_count2, 25
 		breq    ready	
 		cpi		_count2, 3
 		brne	T2end
@@ -32,13 +32,13 @@ TIM1_COMP:
 		rjmp T2end
 
 ready:	
-		clt					;T=0
+		clt				
 		bld	_flag2, 0
 		out PORTC, _countBuz
 		out PORTA, _countA
 		clr _count2
-		set					;“=1
-		bld	_flag2,0		;0б≥т=1 
+		set				
+		bld	_flag2,0		
 		lsl	 _countA
 		inc count
 		cpi count, 9
@@ -59,26 +59,26 @@ Reset:
 		ldi temp, low(RAMEND)
 		out spl, temp
 		 
-		ldi	_count2, 0xff 		 //подаЇмо 1 на вих≥д PORTB
+		ldi	_count2, 0xff 		 
 		out	DDRA, _count2 
 
-		ldi _count2, 0x40       //п≥дт€гуванн€ резистора 10кќм
+		ldi _count2, 0x40       
 		out PORTB, _count2
 
-		ldi _count2, 0x00 		 //подаЇмо 0 на вх≥д порт C
+		ldi _count2, 0x00 		 
 		out DDRD, _count2
 
 		ldi _count2, 0xff
 		out DDRC, _count2
 
 		;_______________________________________________________________________________
-; 25msec, Prescaler=1024, OCR2=0xFD
-		ldi	temp, (1<<WGM22)|(1<<CS22)|(1<<CS21)|(1<<CS20)
-		sts	TCCR2B, temp	;OCR2=0xFD
+
+		ldi	temp, (1<<WGM13)| (1<<WGM12)| (1<<CS12)|(1<<CS11)|(1<<CS10)
+		sts	TCCR1B, temp	
 		ldi	temp, 0xFD
-		sts	OCR2B, temp	; OCR2=0xFD
-		ldi	temp, (1<<OCIE2B)
-		sts	TIMSK2, temp	;
+		sts	OCR1BH, temp	
+		ldi	temp, (1<<OCIE1B)
+		sts	TIMSK1, temp	
 		clr	_count2
 		clr	_flag2
 		clr count
@@ -88,10 +88,10 @@ Reset:
 ;______________________________________________________________________________
 
 main:	
-		sbic	PINB, 6		; €кщо натиснута кнопка 
+		sbic	PINB, 6	
 		rjmp	PC3end
-		set					;“=1
-		bld	_flag2, 0		;0б≥т=1 (оч≥куЇмо 0.8 c)
+		set					
+		bld	_flag2, 0		
 blk:	
 		cpi _countA,  0b00000000
 		brne blk
